@@ -87,3 +87,54 @@ section.summary::before {
    margin-bottom: 50px;
 }
 
+
+
+/* Media */
+
+@media screen and (max-width: 1200px) {
+   .container {
+      width: 90%;
+   }
+}
+
+@media screen and (max-width: 960px) {
+   main {
+      flex-direction: column-reverse;
+   }
+   .container {
+      width: 90%;
+   }
+   header {
+      height: 100px;
+   }
+   header .logo {
+      margin-left: 30px;
+      width: 70px;
+   }
+   .leftCol,
+   .rightCol {
+      width: 90%;
+      margin: 0 auto;
+      padding: 0 30px;
+   }
+   .leftCol {
+      border-right: none;
+   }
+   section h2 {
+      font-size: 30px;
+      letter-spacing: 5px;
+      line-height: 30px;
+   }
+   .name p {
+      font-size: 15px;
+      letter-spacing: 6px;
+      /* line-height: 163px; */
+      color: #949494;
+      font-weight: 900;
+      font-family: "Raleway";
+      text-transform: uppercase;
+   }
+   .avatar img {
+      width: 120px;
+   }
+}
